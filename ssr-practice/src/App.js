@@ -13,6 +13,12 @@ function App() {
         <Route path="/red" element={<RedPage />} />
         <Route path="/blue" element={<BluePage />} />
       </Routes>
+      {/* <ul>
+        <li>
+          <a href="/blue">blue2</a>
+        </li>
+      </ul>
+      <a href="/red">red2</a> */}
     </div>
   );
 }
